@@ -1,0 +1,112 @@
+# Controls and Compliance Assessment - Internal Audit Report
+
+## Company Overview
+NexTech Gadgets is a small U.S. business that develops and sells consumer electronics. It operates from a single physical location serving as its main office, storefront, and warehouse. With a growing online presence attracting customers in the U.S. and internationally, the IT department faces increasing pressure to secure its infrastructure and ensure compliance with regulatory requirements.
+
+---
+
+## Scope of the Internal Audit
+The audit covers all security programs at NexTech Gadgets, including asset management, internal processes, and procedures related to controls and compliance best practices. The focus is on identifying risks, improving security measures, and ensuring compliance with industry standards.
+
+### Goals:
+- Assess current assets and security controls.
+- Complete the controls and compliance checklist.
+- Identify gaps and recommend security enhancements.
+- Ensure compliance with PCI DSS, GDPR, and other applicable regulations.
+
+### Current IT Assets:
+- On-premises equipment for business operations.
+- Employee end-user devices (desktops, laptops, smartphones, remote workstations, peripherals, surveillance cameras, etc.).
+- Storefront products available for retail (in-store and online).
+- Management of accounting, telecommunication, database, security, eCommerce, and inventory systems.
+- Internet access and internal network.
+- Data retention and storage.
+- Legacy systems requiring human monitoring.
+
+---
+
+## Risk Assessment Report
+### Risk Description:
+NexTech Gadgets lacks a formalized asset management system and necessary security controls. The company is not fully compliant with U.S. and international regulations, which increases its exposure to risks, data breaches, and financial penalties.
+
+### Risk Score:
+**8/10** (High risk due to lack of compliance and security controls)
+
+### Potential Impact:
+- Medium impact due to uncertainty regarding at-risk assets.
+- High impact concerning compliance violations and potential fines.
+
+### Control Best Practices (NIST CSF - Identify Function):
+- Dedicate resources for asset identification and management.
+- Classify existing assets and assess the impact of their loss on business continuity.
+
+---
+
+## Controls Assessment Checklist
+| Control | Status | Explanation |
+|---------|--------|------------|
+| Least Privilege | No | Employees have access to customer data, increasing breach risk. |
+| Disaster Recovery Plan | No | No documented plan to ensure business continuity. |
+| Firewall | Yes | Implemented to block unauthorized traffic. |
+| Password Policies | ? | Exists, but weak and needs improvement. |
+| Antivirus | Yes | Active and regularly monitored by IT. |
+| Backups | No | No backup plan in place (incremental, full, or partial backups recommended). |
+| Encryption | No | No encryption for data confidentiality. |
+| IDS | No | No Intrusion Detection System in place. |
+| Storefront | Yes | Security measures exist for physical storefront. |
+| CCTV | Yes | Operational and functional. |
+| Fire Detection | Yes | Exists, but needs regular maintenance and response planning. |
+
+---
+
+## Compliance Checklist
+
+### Payment Card Industry Data Security Standard (PCI DSS)
+| Best Practice | Status | Explanation |
+|--------------|--------|------------|
+| Restrict access to credit card data | No | All employees currently have access. |
+| Secure storage of credit card data | No | Data is not encrypted, violating regulations. |
+| Implement proper encryption | No | No encryption measures in place. |
+
+### General Data Protection Regulation (GDPR)
+| Best Practice | Status | Explanation |
+|--------------|--------|------------|
+| Secure EU customer data | No | GDPR practices not implemented, leading to compliance risks. |
+| Maintain privacy policies | Yes | IT team ensures privacy policy enforcement. |
+
+### System and Organizations Controls (SOC)
+| Best Practice | Status | Explanation |
+|--------------|--------|------------|
+| Establish user access policies | No | Employees have unrestricted access to internal data. |
+| Maintain data integrity | Yes | Data integrity measures are in place. |
+| Ensure authorized access to data | No | All employees can access sensitive data. |
+
+---
+
+## Recommendations
+Based on the internal audit, NexTech Gadgets' security posture needs significant improvements. Key recommendations include:
+
+1. **Implement Least Privilege Access Control** – Restrict employee access to sensitive data.
+2. **Develop a Disaster Recovery Plan** – Establish protocols to ensure business continuity.
+3. **Strengthen Password Policies** – Enforce strong password requirements and regular updates.
+4. **Adopt Data Encryption** – Secure sensitive data using industry-standard encryption methods.
+5. **Deploy an Intrusion Detection System (IDS)** – Monitor and identify potential threats.
+6. **Implement a Comprehensive Backup Plan** – Regular backups to prevent data loss.
+7. **Enhance Compliance Measures** – Ensure adherence to PCI DSS and GDPR regulations.
+8. **Develop a Security Awareness Program** – Educate employees on security best practices.
+
+By addressing these gaps, NexTech Gadgets can improve its security posture, reduce compliance risks, and safeguard sensitive customer data. A follow-up assessment should be conducted in six months to track progress.
+
+---
+
+## Final Assessment
+NexTech Gadgets must take immediate action to implement security best practices and meet compliance standards. Failure to do so could result in financial penalties and reputational damage. The IT department should prioritize security investments to ensure the long-term success of the business.
+
+## Next Steps:
+- Assign dedicated security personnel.
+- Establish a timeline for implementing recommendations.
+- Conduct a follow-up audit in six months.
+
+## Prepared by:
+**Richie Akpan**  
+*Cybersecurity Analyst*
